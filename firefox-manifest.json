@@ -1,18 +1,18 @@
 {
     "manifest_version": 3,
-    "name": "UwUWWW",
-    "description": "An extension that UwUifies all text on sites.",
+    "name": "pls stop doxxing me",
+    "description": "<3",
     "version": "1.0.0",
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "assets/uwu.png"
+        "default_icon": "assets/targetspotted.png"
     },
     "background": {
         "scripts": ["js/background.js"]
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "uwuwww@honkling.me",
+            "id": "hide-pii@astrid.sh",
             "strict_min_version": "55.0"
         }
     },

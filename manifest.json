@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "pls stop doxxing me",
+    "description": "<3",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/targetspotted.png"
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "storage",
+        "webNavigation",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}

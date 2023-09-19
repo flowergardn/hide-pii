@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "UwUWWW",
+    "description": "An extension that UwUifies all text on sites.",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/uwu.png"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "uwuwww@honkling.me",
+            "strict_min_version": "55.0"
+        }
+    },
+    "permissions": [
+        "storage",
+        "webNavigation",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
